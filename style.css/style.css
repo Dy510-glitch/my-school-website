@@ -1,9 +1,12 @@
 /* General page styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* A nice light blue */
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+h1 {
+    color: #006064; /* Darker teal color */
 }
 
 /* Header styles */
@@ -39,4 +42,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
