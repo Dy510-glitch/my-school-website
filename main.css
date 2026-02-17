@@ -63,3 +63,22 @@ footer {
     margin-bottom: 15px;   /* Adds space between the image and the text */
 }
 
+/* This styles the container for the logo and title */
+.header-content {
+    display: flex;
+    align-items: center;    /* Keeps logo and text on the same level */
+    justify-content: center; /* Centers everything in the green bar */
+    gap: 20px;              /* Adds space between logo and name */
+    margin-bottom: 10px;
+}
+
+/* This shrinks your big image down to logo size */
+.school-logo {
+    width: 80px;            /* Adjust this number to make it bigger or smaller */
+    height: 80px;           /* Keep width and height the same for a circle */
+    object-fit: contain;    /* Ensures the logo isn't squashed */
+    border-radius: 50%;     /* Optional: Makes the logo circular */
+    background: white;      /* Optional: Adds a white background behind the logo */
+    padding: 5px;
+}
+
