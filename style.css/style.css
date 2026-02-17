@@ -1,48 +1,46 @@
-/* General Layout */
+/* 1. The Body: Sets the overall look */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    line-height: 1.6;
-    background-color: #f0f2f5;
+    background-color: #f4f4f4; /* A light grey background */
+    color: #333;               /* Dark grey text for easy reading */
+    font-family: Arial, sans-serif; 
+    margin: 0;                 /* Removes default gaps around the page */
+    line-height: 1.6;          /* Adds space between lines of text */
 }
 
-/* Header and Nav */
+/* 2. The Header: Makes the school name stand out */
 header {
-    background-color: #1a237e; /* Royal Blue */
-    color: white;
-    padding: 1rem;
-    text-align: center;
+    background-color: #004d40; /* Dark green (common for schools) */
+    color: white;              /* White text */
+    padding: 20px;             /* Space inside the box */
+    text-align: center;        /* Centers the name and menu */
 }
 
+/* 3. Navigation Links */
 nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+    color: white;              
+    margin: 0 15px;            /* Space between links */
+    text-decoration: none;     /* Removes the underline */
     font-weight: bold;
 }
 
-/* Images */
-.school-img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+nav a:hover {
+    text-decoration: underline; /* Underline appears only when you point at it */
+    color: #ffeb3b;            /* Changes to yellow on hover */
 }
 
-/* Sections */
+/* 4. Sections: Making them look like clean white "cards" */
 section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 800px;          /* Prevents the text from being too wide */
+    margin: 20px auto;         /* Centers the section and adds space outside */
+    padding: 20px;             /* Space inside the section */
+    border-radius: 8px;        /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a soft shadow */
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: white;
+/* 5. Headings inside sections */
+h2 {
+    color: #004d40;            /* Matches the school color */
+    border-bottom: 2px solid #004d40; 
+    display: inline-block;     /* Makes the border only as wide as the text */
 }
