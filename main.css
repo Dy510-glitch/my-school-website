@@ -1,27 +1,30 @@
-/* 1. Overall Page Style */
-body {
-    background-color: #f4f4f4; /* Light grey background */
-    color: #333;               /* Dark grey text */
-    font-family: 'Montserrat', sans-serif;
-    /* ... keep all your other code the same ... */
-    margin: 0;
-    line-height: 1.6;
+/* 1. Aligns the circle and the text side-by-side */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
 }
 
-/* 2. Header (The Top Bar) */
-header {
-    background-color: #004d40; /* School Green */
-    color: white;
-    padding: 20px;
-    text-align: center;
+/* 2. Creates the white circle */
+.logo-circle {
+    width: 100px;           /* Size of the circle */
+    height: 100px;          /* Must match width to be a perfect circle */
+    background-color: white;
+    border-radius: 50%;     /* This makes it a circle */
+    display: flex;
+    align-items: center;    /* Centers image vertically */
+    justify-content: center; /* Centers image horizontally */
+    overflow: hidden;       /* Crops any parts of the image that spill out */
+    padding: 5px;           /* Adds a small white border around the logo */
 }
 
-/* 3. Navigation Links */
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+/* 3. Makes the image fit inside the circle */
+.logo-circle img {
+    width: 100%;            /* Makes image fill the width */
+    height: 100%;           /* Makes image fill the height */
+    object-fit: contain;    /* Secret: This fits the whole logo inside without squishing it */
 }
 
 nav a:hover {
@@ -81,4 +84,5 @@ footer {
     background: white;      /* Optional: Adds a white background behind the logo */
     padding: 5px;
 }
+
 
