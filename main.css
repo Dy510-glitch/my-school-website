@@ -1,0 +1,53 @@
+/* 1. Overall Page Style */
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333;               /* Dark grey text */
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 2. Header (The Top Bar) */
+header {
+    background-color: #004d40; /* School Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3. Navigation Links */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;           /* Turns Yellow when you point at it */
+    text-decoration: underline;
+}
+
+/* 4. Content Sections (The "Cards") */
+section {
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;        /* Centers the box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a soft shadow */
+}
+
+/* 5. Headings */
+h2 {
+    color: #004d40;
+    border-bottom: 2px solid #004d40;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
