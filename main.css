@@ -53,3 +53,13 @@ footer {
     color: #666;
 }
 
+/* This makes sure the image fits perfectly inside its box */
+.main-image {
+    width: 100%;           /* Fills the width of the card */
+    max-height: 400px;     /* Prevents it from being too tall */
+    object-fit: cover;     /* Crops it neatly if it's too big */
+    border-radius: 8px;    /* Rounds the corners to match your cards */
+    display: block;        /* Removes weird gaps at the bottom */
+    margin-bottom: 15px;   /* Adds space between the image and the text */
+}
+
