@@ -127,7 +127,7 @@ body::before {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; /* Keeps the logo still while you scroll */
-    background-size: 40%;         /* Adjust this to make the logo bigger or smaller */
+    background-size: 80%;         /* Adjust this to make the logo bigger or smaller */
     
     opacity: 0.1;                 /* 0.1 is very faint, 0.2 is a bit stronger */
     
@@ -138,6 +138,7 @@ body::before {
     height: 100%;
     z-index: -1;                  /* Puts it BEHIND all your text and cards */
 }
+
 
 
 
