@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 /* 1. Overall Page Style */
 body {
     background-color: #f4f4f4; /* Light grey background */
@@ -137,6 +140,7 @@ body::before {
     z-index: -1;                  /* Keeps it behind everything */
     pointer-events: none;         /* Makes sure you can still click buttons 'through' it */
 }
+
 
 
 
