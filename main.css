@@ -91,6 +91,35 @@ footer {
     padding: 5px;
 }
 
+/* 1. Aligns the circle and the text side-by-side */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+/* 2. Creates the white circle */
+.logo-circle {
+    width: 100px;           /* Size of the circle */
+    height: 100px;          /* Must match width to be a perfect circle */
+    background-color: white;
+    border-radius: 50%;     /* This makes it a circle */
+    display: flex;
+    align-items: center;    /* Centers image vertically */
+    justify-content: center; /* Centers image horizontally */
+    overflow: hidden;       /* Crops any parts of the image that spill out */
+    padding: 5px;           /* Adds a small white border around the logo */
+}
+
+/* 3. Makes the image fit inside the circle */
+.logo-circle img {
+    width: 100%;            /* Makes image fill the width */
+    height: 100%;           /* Makes image fill the height */
+    object-fit: contain;    /* Secret: This fits the whole logo inside without squishing it */
+}
+
 
 
 
