@@ -127,7 +127,7 @@ body::before {
     background-repeat: no-repeat;
     background-position: center;  /* Keeps it perfectly in the middle */
     background-size: 80%;         /* '60%' makes it big; use '80%' to make it huge */
-    opacity: 0.08;                /* Very low opacity so it doesn't bury your text */
+    opacity: 0.8;                /* Very low opacity so it doesn't bury your text */
     
     position: fixed;              /* Sticks it to the screen, not the page */
     top: 0;
@@ -137,6 +137,7 @@ body::before {
     z-index: -1;                  /* Keeps it behind everything */
     pointer-events: none;         /* Makes sure you can still click buttons 'through' it */
 }
+
 
 
 
