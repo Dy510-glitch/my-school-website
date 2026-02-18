@@ -6,6 +6,11 @@
     <title>Barangay Tibay College</title>
     <link rel="stylesheet" href="main.css">
 </head>
+<script>
+    function welcomeMessage() {
+        alert("Welcome to Barangay Tibay College! We are glad you are here.");
+    }
+</script>
 <body>
 
    <header>
@@ -38,10 +43,13 @@
     </nav>
 </header>
 
-    <section id="hero">
-        <h2>Welcome to the Future of Learning</h2>
-        <p>Building bright minds since 1995.</p>
-    </section>
+<section id="hero">
+    <img src="school.jpg" alt="School Campus" class="school-banner">
+    <h2>Welcome to the Future of Learning</h2>
+    <button onclick="welcomeMessage()" style="padding: 10px 20px; background: #004d40; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Click for a Message
+    </button>
+</section>
 
     <section id="about">
         <h3>About Our School</h3>
@@ -54,6 +62,7 @@
 
 </body>
 </html>
+
 
 
 
